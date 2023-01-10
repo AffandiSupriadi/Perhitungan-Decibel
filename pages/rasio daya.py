@@ -5,8 +5,8 @@ import math
 
 st.title ("Perhitungan rasio daya")
 st.image ("dayagambar.jpg", width=400)
-P1 = st.number_input ("Masukkan nilai daya input (Watt) = ")
-P2 = st.number_input ("Masukkan nilai daya output (Watt) = ")
+P1 = st.number_input ("Masukkan nilai daya input (watt) = ")
+P2 = st.number_input ("Masukkan nilai daya output (watt) = ")
 hitung = st.button ("Hitung Rasio daya")
 if hitung:
         rasio_daya = 10 * (math.log10(P2/P1))
