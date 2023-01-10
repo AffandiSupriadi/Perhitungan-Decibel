@@ -34,12 +34,12 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
         st.subheader("Rumus rasio daya")
-        st.image("dayalog.jpg",width=400)
+        st.image("dayalog.jpg",width=200)
 with col2:
         st.subheader("Rumus rasio arus")
-        st.image("arlog.jpg",width=400)
+        st.image("arlog.jpg",width=200)
 with col3:
         st.subheader("Rumus rasio tegangan")
-        st.image("teglog.jpg",width=400)
+        st.image("teglog.jpg",width=200)
     
 st.write("---")
